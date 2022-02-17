@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            table {
+                margin-bottom: 10px;
+                border: 1px solid;
+                font-size: 12pt;
+            }
+            td, th {
+                border: 1px solid;
+                text-align: left;
+                padding: 5px;
+            }
+        </style> 
+    </head>
+    <body>
+        <form id="info-form">
+            <table>
+                <tr><td>First Name:</td>
+                    <td>
+                        <input type="text" id="firstname">
+                    </td>
+                </tr>
+                <tr><td>Last Name:</td> 
+                    <td>
+                        <input type="text" id="lastname">
+                    </td>
+                </tr>
+                <tr><td>Date of birth:</td> 
+                    <td>
+                        <input type="text" id="birthday">
+                    </td>
+                </tr>
+                <tr><td>Favourite cheese:</td> 
+                    <td>
+                        <select id="favcheese" size="1">
+                            <option value="Haloumi">Haloumi</option>
+                            <option value="Brie">Brie</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cities lived in:</td> 
+                    <td id="checkboxes">
+                        <input type="checkbox" id="city1" name="Adelaide" value="Adelaide">
+                        <label for="city1">Adelaide</label><br>
+                        <input type="checkbox" id="city2" name="Perth" value="Perth">
+                        <label for="city2">Perth</label><br>
+                        <input type="checkbox" id="city3" name="Hobart" value="Hobart">
+                        <label for="city3">Hobart</label><br>
+                        <input type="checkbox" id="city4" name="Darwin" value="Darwin">
+                        <label for="city4">Darwin</label><br>
+                    </td>
+                </tr>
+            </table>
+            <button id="remove">Remove</button>
+        </form>
+        <textarea id="output" rows=15 cols=80></textarea>
+        <script type="text/javascript" src="
+        action.js">
+        </script>
+    </body>
+</html>

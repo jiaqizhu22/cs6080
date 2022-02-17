@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 807px;
+    width: 807px;
+    background-color: black;
+    grid-gap: 5px;
+    padding: 5px;
+}
+.grid-yellow {
+    background-color: #c7c264;
+    padding: 3px;
+}
+.grid-green {
+    background-color: #77a26d;
+}
+.dot {
+    height: 100%;
+    width: 100%;
+    background-color: #92513d;
+    border-radius: 50%;
+}
