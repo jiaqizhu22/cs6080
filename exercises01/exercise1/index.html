@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Exercise 1</title>
+	<style type="text/css">
+		.title {
+			font-size: 70pt;
+            font-family: Arial;
+			font-weight: 700;
+			margin-left: auto;
+    		margin-right: auto;
+			margin-top: 50px;
+			margin-bottom: 50px;
+        }
+		.caption {
+			font-family: sans-serif;
+			font-style: italic;
+			font-size: 28px;
+			margin-left: auto;
+    		margin-right: auto;
+			text-align: center;
+		}
+        .container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+		}
+        .sydney {
+            width: 600px;
+			height: 400px;
+			margin-right: 25px;
+			background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Oceania/Australia/Sydney/sydney-guide-lead-sunset.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+        }
+		.melbourne {
+			width: 600px;
+			height: 400px;
+			margin-left: 25px;
+			margin-right: 25px;
+			background-image: url("https://www.rmit.edu.au/content/dam/rmit/au/en/news/news_Melbourne_AdobeStock.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.adelaide {
+			width: 600px;
+			height: 400px;
+			margin-left: 25px;
+			background-image: url("https://d31atr86jnqrq2.cloudfront.net/images/aerial-city-adelaide.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="title">Australian Cities</div>
+	</div>	
+    <div class="container">
+		<div class="sydney"></div>
+		<div class="melbourne"></div>
+		<div class="adelaide"></div>
+	</div>
+	<div class="container">
+		<div class="caption">Sydney</div>
+		<div class="caption">Melboune</div>
+		<div class="caption">Adelaide</div>
+	</div>
+</body>
+</html>
